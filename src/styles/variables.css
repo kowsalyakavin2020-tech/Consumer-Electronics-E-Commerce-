@@ -1,0 +1,40 @@
+:root {
+  /* ===== 3 THEME COLORS (as per team leader instruction) ===== */
+  --color-primary: #2563EB;      /* Main - buttons, links, active states */
+  --color-secondary: #0F172A;    /* Dark - text, header/footer bg */
+  --color-accent: #F59E0B;       /* Highlight - offers, hover, badges */
+
+  /* Shades derived from above (still within 3-color system) */
+  --color-primary-light: #3B82F6;
+  --color-primary-dark: #1D4ED8;
+  --color-secondary-light: #1E293B;
+  --color-white: #FFFFFF;
+  --color-light-bg: #F8FAFC;
+  --color-border: #E2E8F0;
+  --color-text-muted: #64748B;
+
+  /* Typography */
+  --font-primary: 'Poppins', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+
+  /* Spacing */
+  --section-padding: 80px 0;
+  --section-padding-mobile: 50px 0;
+  --container-width: 1280px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 20px rgba(15, 23, 42, 0.10);
+  --shadow-lg: 0 10px 40px rgba(15, 23, 42, 0.15);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.35s ease;
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+}
